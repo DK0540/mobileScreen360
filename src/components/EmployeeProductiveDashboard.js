@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaHome, FaUser } from "react-icons/fa";
 import "./Employee.css";
 import img1 from "./assets/vbnlogo2.jpg";
 
@@ -37,17 +38,27 @@ const EmployeeProductiveDashboard = () => {
           ))}
         </div>
       </div>
+
+      {/* Footer */}
+      <footer className="footer">
+        <Link to="/">
+          <FaHome className="icon" />
+        </Link>
+        <Link to="/user">
+          <FaUser className="icon" />
+        </Link>
+      </footer>
     </div>
   );
 };
 
 export default EmployeeProductiveDashboard;
 
-//====================================================>>
+//=========================================================>>>
 // import React from "react";
 // import { Link } from "react-router-dom";
 // import "./Employee.css";
-// import img from "./assets/vlogo.png";
+// import img1 from "./assets/vbnlogo2.jpg";
 
 // const EmployeeProductiveDashboard = () => {
 //   const productivityData = [
@@ -59,16 +70,20 @@ export default EmployeeProductiveDashboard;
 
 //   return (
 //     <div className="login-container">
-//       <img src={img} alt="Logo" className="logo1" />
+//       <div className="logodiv">
+//         <img src={img1} alt="Logo" className="logo1" />
+//       </div>
+
 //       <div className="heading1">
 //         <h1>Employee productive Dashboard</h1>
 //       </div>
 //       <div className="heading">
-//         <div>
+//         <div className="innerbox">
 //           {productivityData.map((data, index) => (
 //             <React.Fragment key={index}>
-//               <p>
-//                 Productivity on {data.day} <span>{data.percentage}%</span>
+//               <p className={`proclass`}>
+//                 Productivity on {data.day}
+//                 <span className={`percentage-green`}>{data.percentage}%</span>
 //               </p>
 //               <div
 //                 className={`progress-bar green progress-bar-${data.percentage}`}
