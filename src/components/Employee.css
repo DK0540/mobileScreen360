@@ -1,0 +1,163 @@
+.logo1 {
+    width: 80px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+  }
+  .logodiv{
+    width: 92px;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: relative;
+    left: 36%;
+    top: -18px;
+    overflow: hidden;
+  }
+  .heading {
+    width: 302px;
+    background-color: #161616f5;
+    border-radius: 23px;
+    left: 2%;
+    width: 96%;
+    position: relative;
+    padding-top: 45px;
+    z-index: 1; 
+    padding-bottom: 33px;
+  }
+  
+  .heading h1 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .heading1 {
+ 
+    height: 57px;
+    background-color: #242424;
+    border-radius: 36px;
+    left: 2%;
+    width: 98%;
+    margin-bottom: -30px;
+    margin-left: 3px;
+    z-index: 2; /* Set a higher z-index value for heading1 */
+  }
+  
+  .heading1 h1 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 17px;
+  }
+  
+
+  /* .heading {
+    width: 302px;
+    background-color: #383838;
+    border-radius: 23px;
+    left: 2%;
+    width: 96%;
+    position: relative;
+    padding-top: 28px;
+   
+  }
+  
+  .heading h1 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .heading1 {
+    width: 302px;
+    background-color: #242424;
+    border-radius: 23px;
+    left: 2%;
+    width: 96%;
+    position: relative;
+
+  }
+  .heading1 h1 {
+    font-size: 15px;
+    font-weight: 600;
+  } */
+
+
+
+  /*
+  .progress-bar {
+    height: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+ 
+  .progress-bar.green {
+    background: linear-gradient(90deg, #4caf50, #4caf50);
+  }
+  
+
+   .progress-bar-4 {
+    width: 4%;
+  }
+  
+  .progress-bar-25 {
+    width: 25%;
+  }
+  
+  .progress-bar-40 {
+    width: 40%;
+  }
+   */
+
+   /* Add the following styles to your existing CSS */
+
+.progress-bar {
+    height: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+    margin-bottom: 32px;
+  }
+  
+  .progress-bar div {
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Adjust the width of the progress bar based on the percentage */
+  .progress-bar-40 div {
+    background: linear-gradient(90deg, #0bff13, #4caf50);
+    border: 2px solid #5cdd5c;
+    margin-left: 16px;
+  }
+  
+  .progress-bar-25 div {
+    background: linear-gradient(90deg, #0bff13, #4caf50);
+    border: 2px solid #5cdd5c;
+    margin-left: 16px;
+  }
+  
+  .progress-bar-80 div {
+    background: linear-gradient(90deg, #0bff13, #4caf50);
+    border: 2px solid #5cdd5c;
+    margin-left: 16px;
+  }
+
+  .percentage-green {
+    color: #4caf50; /* Set the text color to green */
+    float: right;   /* Align the text to the right */
+    margin-left: 12px; /* Add some space between text and progress bar */
+  }
+
+  .proclass{
+    margin-left: -98px;
+    font-size: small;
+    font-weight: 400;
+  }
+
+  .innerbox{
+    margin-right: 20px;
+  }
+
+  #root > div > div.heading > div > p:nth-child(5){
+    margin-left: -79px;
+  }
+  
+  
